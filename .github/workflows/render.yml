@@ -32,7 +32,7 @@ jobs:
             --output final_video.mp4 \
             --resolution 1280x720 \
             --fps 30 \
-            --duration 10
+          
 
       - name: Upload video
         uses: actions/upload-artifact@v4
