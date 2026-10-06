@@ -28,7 +28,7 @@ jobs:
 
       - name: Render video
         run: |
-          npx hyperframes render index.html \
+         npx hyperframes render . \
             --output final_video.mp4 \
             --resolution 1280x720 \
             --fps 30 \
