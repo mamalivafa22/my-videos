@@ -30,7 +30,7 @@ jobs:
         run: |
          npx hyperframes render . \
             --output final_video.mp4 \
-            --resolution 1280x720 \
+            --resolution landscape \
             --fps 30 \
           
 
